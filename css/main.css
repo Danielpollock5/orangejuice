@@ -68,7 +68,7 @@ input{
 	
 	float: right;
 	font-size: 44px;
-	position: absolute;
+
 	margin-left: 400px;
 	margin-top: 200px;
 	color: #fe7f00;
@@ -115,5 +115,160 @@ h1{
 span{
 	font-weight: bold;
 }
+
+
+/*
+
+----------------------------------------800px
+
+
+*/
+@media(max-width: 800px){
+	#orange_1{
+		height: 400px;
+		width: 250px;
+	}
+	#mainTitle{
+		font-size: 30px;
+		margin-right: 100px;
+	}
+	.buttons{
+		    padding: 10px 30px;
+		    margin-left: 300px;
+	}
+
+}
+
+/*
+
+------------------------------------760px
+
+*/
+
+
+@media(max-width: 760px){
+	.buttons{
+		    padding: px 25px;
+		    margin-left: 200px;
+	}
+
+}
+/*
+
+
+-----------------------------------------670px
+
+
+
+*/
+@media(max-width: 670px){
+	.logo{
+		font-size: 14px;
+		margin: 0;
+	}
+	.rightNav{
+		font-size: 14px;
+	}
+	#orange_1{
+		height: 350px;
+		width: 200px;
+	}
+	.buttons{
+		    padding: 7px 20px;
+		    margin-left: 150px;
+	}
+}
+/*
+
+------------------------------------------590px
+
+
+*/
+@media(max-width: 590px){
+	.buttons{
+		    padding: 5px 15px;
+		    margin-left: 100px;
+	}
+
+
+}
+/*
+
+
+
+-----------------------------------------------580px
+
+
+
+*/
+@media(max-width: 580px){
+	.rightNav{
+		word-spacing: 20px;
+	}
+
+/*
+
+
+----------------------------------555px
+
+
+*/
+
+}
+@media(max-width: 555px){
+	.rightNav{
+		word-spacing: 15px;
+	}
+}
+/*
+
+---------------------------------530px
+
+
+*/
+@media(max-width: 530px){
+	.rightNav{
+		word-spacing: 20px;
+	}
+	.logo{
+		display: none;
+	}
+	.buttons{
+		    padding: 5px 10px;
+		    margin-left: 50px;
+	}
+
+
+}
+@media(max-width: 470px){
+	
+	.buttons{
+		    
+		    margin-left: 25px;
+		}
+	#button_one,
+	#button_two{
+		padding: 5px 10px;
+	}
+
+}
+/*
+------------------------------------460px
+
+*/
+@media(max-width: 460px){
+	#orange_1{
+		height: 300px;
+		width: 150px;
+	}
+	#mainTitle{
+		font-size: 24px;
+		margin-right: 75px;
+	}
+
+}
+
+
+
 
 
